@@ -8,7 +8,7 @@ Kaiyang Cheng *, Claudia Iriondo *, Francesco Calivá,  Justin Krogue, Sharmila 
 
 The use of semantic segmentation for masking and cropping input images has proven to be a significant aid in medical imaging classification tasks by decreasing the noise and variance of the training dataset. However, implementing this approach with classical methods is challenging: the cost of obtaining a dense segmentation is high, and the precise input area that is most crucial to the classification task is difficult to determine a-priori. We propose a novel joint-training deep reinforcement learning framework for image augmentation. A segmentation network, weakly supervised with policy gradient optimization, acts as an agent, and outputs masks as actions given samples as states, with the goal of maximizing reward signals from the classification network. In this way, the segmentation network learns to mask unimportant imaging features. Our method, Adversarial Policy Gradient Augmentation (APGA), shows promising results on Stanford's MURA dataset and on a hip fracture classification task with an increase in global accuracy of up to 7.33% and improved performance over baseline methods in 9/10 tasks evaluated. We discuss the broad applicability of our joint training strategy to a variety of medical imaging tasks.
 
-![image]()
+![image](images/FINALFINAL.png)
 
 ## Usage
 
