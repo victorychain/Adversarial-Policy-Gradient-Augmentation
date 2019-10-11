@@ -39,7 +39,7 @@ The use of semantic segmentation for masking and cropping input images has prove
 3. Dataset
 
    - Download the [MURA](https://stanfordmlgroup.github.io/competitions/mura/) dataset
-   - Please put dataset in folder `./dataset`
+   - Please put dataset in folder `./datasets`
 
 4. Training:
 
